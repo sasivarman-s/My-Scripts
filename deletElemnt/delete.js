@@ -1,4 +1,4 @@
-var h1 = document.getElementsByTagName("h1")
-del(){
+var h1 = document.getElementById("cont")
+function del(){
     h1.remove()
 }

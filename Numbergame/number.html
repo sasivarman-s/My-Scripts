@@ -7,12 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="whole">
-        <h1 id="num" class="h1">0</h1>
-        <div class="btngup">
-            <button id="btnadd">+1</button>
-            <button id="btnsub">-1</button>
-            <button id="btnreset">Reset as 0</button>
+    <div class="flex flex-col justify-center items-center gap-10 p-20 border hover:shadow-lg">
+        <h1 id="num" class="text-4xl">0</h1>
+        <div class="flex flex-row gap-5">
+            <button id="btnadd" class="p-3 bg-green-400 rounded-full">+1</button>
+            <button id="btnsub" class="p-3 bg-red-600 rounded-full">-1</button>
+            <button id="btnreset" class="p-3 bg-black text-white rounded-full">Reset as 0</button>
         </div>
     </div>
 </body>

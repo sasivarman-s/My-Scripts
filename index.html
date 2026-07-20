@@ -8,15 +8,18 @@
 </head>
 
 <body>
-    <p id="p1" class="p">Element 1</p>
-    <p id="p2" class="p">Element 2</p>
-    <p id="p3" class="p">Element 3</p>
-    <p id="p3" class="p">Element 3</p>
-    <p id="p4" class="p">Element 4</p>
+    <div id="parent">
+        <p id="p1" class="p">Element 1</p>
+        <p id="p2" class="p">Element 2</p>
+        <p id="p3" class="p">Element 3</p>
+        <p id="p3" class="p">Element 3</p>
+        <p id="p4" class="p">Element 4</p>
+    </div>
 </body>
 <script>
-   let dem = document.querySelectorAll(".p")
-   console.log(dem);
+   var dem = document.getElementById("p1")
+   dem.textContent="Hi da potta"
+   dem.style.color="orange"
 </script>
 
 </html>

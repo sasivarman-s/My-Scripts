@@ -8,13 +8,16 @@
 </head>
 
 <body id="body">
-  
+    <ul id="list"">
+        <li>yo 1</li>
+        <li>yo 2</li>
+        <li>yo 3</li>
+    </ul>
 </body>
 <script>
-   let niw = document.createElement("h1")
-   niw.innerHTML="HELLO WORLD"
-   let body = document.getElementById("body")
-   body.appendChild(niw)
+    let get = document.getElementById("list")
+    get.insertAdjacentHTML("afterbegin","<li>yo 4</li>")
+
 </script>
 
 </html>

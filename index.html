@@ -12,12 +12,12 @@
         <li>yo 1</li>
         <li>yo 2</li>
         <li>yo 3</li>
+        <li>you 4</li>
     </ul>
 </body>
 <script>
     let get = document.getElementById("list")
-    let getc = get.cloneNode(true)
-    console.log(getc);
+    get.removeChild(get.lastElementChild)
     
 
 </script>

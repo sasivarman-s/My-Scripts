@@ -11,6 +11,6 @@ function cgreen(){
 function corange(){
     h1.style.color="orange" 
 }
-function cgray(){
-    h1.style.color="gray" 
+function cblue(){
+    h1.style.color="blue" 
 }

@@ -1,7 +1,7 @@
-// testing json for API calls
-async function api(){
-    const response = await fetch("https://dummyjson.com/products")
-    console.log(response)
-    
+// https://dummyjson.com/products
+
+async function fetchdata(){
+    const res = fetch("https://dummyjson.com/products")
+    console.log(res)
 }
-api()
+fetchdata()

@@ -2,7 +2,7 @@
 
 async function fetchdata(){
     const res = await fetch("https://dummyjson.com/products")
-    const data = res.json()
-    console.log(data)
+    const data =  await res.json()
+    console.log(data.products)
 }
 fetchdata()

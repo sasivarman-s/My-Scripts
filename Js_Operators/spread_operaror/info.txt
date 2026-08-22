@@ -1,0 +1,4 @@
+spread operator used to unpack the elements of the arrays and objects in javascript.
+2 uses of spread(...) operator is 
+     ->copy
+     ->concadination
